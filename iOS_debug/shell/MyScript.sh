@@ -19,7 +19,7 @@ rm -rf ${BUILT_PRODUCTS_DIR}/*
 
 # 复制待调试xxx.app到 Xcode缓存目录,并修改名字为当前工程可识别的名字.实现替换xxx.app的目的
 cp -rf ${TARGET_APP_PATH} ${BUILD_APP_PATH}
-# 删除不能用个人证书签名的插件 Watch
+# 删除不能用个人证书签名的插件 Watch PlugIns
 rm -rf ${BUILD_APP_PATH}/Watch
 rm -rf ${BUILD_APP_PATH}/PlugIns
 # 修改使 bundle id 一致
