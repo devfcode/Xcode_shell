@@ -1,5 +1,6 @@
-# iOS_debug
-将 Xcode调用第三方应用
+# Xcode Shell
+
+shell 实现 Xcode 调试 第三方应用
 
 ## 原理
 Xcode 运行时会在 Mac 系统的缓存文件夹(BUILT_PRODUCTS_DIR)里 创建 xxx.app,然后把 xxx.app 安装到手机上去,Xcode本身是可以调试这个xxx.app的.
